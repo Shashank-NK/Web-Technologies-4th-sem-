@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    padding: 30px;
+    color: #333;
+}
+
+h1, h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+hr {
+    margin: 25px 0;
+    border: none;
+    height: 2px;
+    background: #90caf9;
+}
+
+ul, ol {
+    margin: 10px 0 15px 30px;
+}
+
+ul li, ol li {
+    padding: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+ul li:hover, ol li:hover {
+    background-color: #bbdefb;
+    transform: translateX(5px);
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #1976d2;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #bbdefb;
+    transition: 0.3s;
+}
+
+h2:last-of-type {
+    margin-top: 20px;
+}
+
+p:last-child {
+    font-weight: bold;
+}
+
+body > * {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
