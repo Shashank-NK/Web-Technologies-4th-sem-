@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h3>A Simple Calci</h3>
+
+<input type="number" id="num1" placeholder="Enter first number">
+<br>
+
+<input type="number" id="num2" placeholder="Enter second number">
+<br>
+
+<button onclick="add()">Add</button>
+<button onclick="substract()">Sub</button>
+<button onclick="multiply()">Multiply</button>
+<button onclick="divide()">Divide</button>
+
+<p id="result"></p>
+
+<script>
+function add() {
+    var n1 = Number(document.getElementById("num1").value);
+    var n2 = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (n1 + n2);
+}
+function add() {
+    var n1 = Number(document.getElementById("num1").value);
+    var n2 = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (n1 + n2);
+}
+function substract() {
+    var n1 = Number(document.getElementById("num1").value);
+    var n2 = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (n1 - n2);
+}
+function multiply() {
+    var n1 = Number(document.getElementById("num1").value);
+    var n2 = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (n1 * n2);
+}
+function divide() {
+    var n1 = Number(document.getElementById("num1").value);
+    var n2 = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (n1 / n2);
+}
+</script>
+
+</body>
+</html>
